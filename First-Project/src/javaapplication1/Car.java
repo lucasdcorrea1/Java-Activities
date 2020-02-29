@@ -33,10 +33,11 @@ public class Car {
         this.velAtual = this.velAtual - x;
     }    
     
-    public String toString(){
-        return "Modelo:" + this.modelo +
-                "\n Marca: " + this.marca +
-                "\n Motor: " + this.motor +
-                "\n Vel Atual: " + this.velAtual;
+    public String getCar(){
+        return ("Modelo:" + this.modelo
+                +"\n Marca: " + this.marca
+                +"\n Motor: " + this.motor
+                +"\n Vel Atual: " + this.velAtual
+        );
     }
 }

@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Test {
 
     public static void main(String[] args) {
-        //Criando objotos
+        //Criando objetos
         String model = JOptionPane.showInputDialog("Informe o modelo!");
         String brand = JOptionPane.showInputDialog("Informe a marca!");
         int motor = JOptionPane.showConfirmDialog(null,
@@ -28,8 +28,8 @@ public class Test {
         obj2.turnOff();
         obj2.stop(30);
         
-        JOptionPane.showMessageDialog(null, obj1.toString());
-        JOptionPane.showMessageDialog(null, obj2.toString());
+        JOptionPane.showMessageDialog(null, obj1.getCar());
+        JOptionPane.showMessageDialog(null, obj2.getCar());
     }
     
 };
